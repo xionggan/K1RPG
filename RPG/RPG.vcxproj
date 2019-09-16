@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{466E8A08-AF93-457D-A5D6-9F4712BCB9E2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>道具</RootNamespace>
+    <ProjectName>RPG</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BackTitleOption.h" />
+    <ClInclude Include="Bag.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Director.h" />
+    <ClInclude Include="DrakPrairie.h" />
+    <ClInclude Include="Equipment.h" />
+    <ClInclude Include="ExitOption.h" />
+    <ClInclude Include="GameObjectFactory.h" />
+    <ClInclude Include="GateWay.h" />
+    <ClInclude Include="ItemFactory.h" />
+    <ClInclude Include="ItemObject.h" />
+    <ClInclude Include="LaserBullet.h" />
+    <ClInclude Include="CombatRole.h" />
+    <ClInclude Include="Consumables.h" />
+    <ClInclude Include="Dialog.h" />
+    <ClInclude Include="Frame.h" />
+    <ClInclude Include="GameLib.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="HillyLand.h" />
+    <ClInclude Include="LoadOption.h" />
+    <ClInclude Include="MapData.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Npc.h" />
+    <ClInclude Include="Option.h" />
+    <ClInclude Include="PauseMenu.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="HpMedinice.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="Marco.h" />
+    <ClInclude Include="Medinice.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="MpMedinice.h" />
+    <ClInclude Include="PlayerInfoUI.h" />
+    <ClInclude Include="Position.h" />
+    <ClInclude Include="Rect.h" />
+    <ClInclude Include="SaveOption.h" />
+    <ClInclude Include="Shop.h" />
+    <ClInclude Include="ShortcutBag.h" />
+    <ClInclude Include="StartMenu.h" />
+    <ClInclude Include="Stone.h" />
+    <ClInclude Include="tinyxml\tinystr.h" />
+    <ClInclude Include="tinyxml\tinyxml.h" />
+    <ClInclude Include="Walkable.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Tool.h" />
+    <ClInclude Include="Unity.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackTitleOption.cpp" />
+    <ClCompile Include="Bag.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Director.cpp" />
+    <ClCompile Include="DrakPrairie.cpp" />
+    <ClCompile Include="Equipment.cpp" />
+    <ClCompile Include="ExitOption.cpp" />
+    <ClCompile Include="GameObjectFactory.cpp" />
+    <ClCompile Include="GateWay.cpp" />
+    <ClCompile Include="ItemFactory.cpp" />
+    <ClCompile Include="ItemObject.cpp" />
+    <ClCompile Include="LaserBullet.cpp" />
+    <ClCompile Include="CombatRole.cpp" />
+    <ClCompile Include="Consumables.cpp" />
+    <ClCompile Include="Dialog.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="HillyLand.cpp" />
+    <ClCompile Include="LoadOption.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Npc.cpp" />
+    <ClCompile Include="PauseMenu.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="HpMedinice.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Marco.cpp" />
+    <ClCompile Include="Medinice.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="MpMedinice.cpp" />
+    <ClCompile Include="PlayerInfoUI.cpp" />
+    <ClCompile Include="SaveOption.cpp" />
+    <ClCompile Include="Shop.cpp" />
+    <ClCompile Include="ShortcutBag.cpp" />
+    <ClCompile Include="StartMenu.cpp" />
+    <ClCompile Include="Stone.cpp" />
+    <ClCompile Include="tinyxml\tinystr.cpp" />
+    <ClCompile Include="tinyxml\tinyxml.cpp" />
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="Walkable.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

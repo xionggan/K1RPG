@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\道具">
+      <UniqueIdentifier>{8172fa5f-b18f-46ca-9fae-d18b565cefff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\道具\消耗类道具">
+      <UniqueIdentifier>{fb94677d-7106-439c-9c2c-c03f0c2cbce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\道具\装备">
+      <UniqueIdentifier>{b6dcf634-ab1a-49a5-a04a-b2b6da8c4d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\道具\消耗类道具\药品">
+      <UniqueIdentifier>{df00b6af-cdb1-49ad-b5f8-104d0c9fd02d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\背包">
+      <UniqueIdentifier>{a2ff05c3-5b8b-439b-8eec-6b3c6d24508f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\道具\消耗类道具\药品\红药">
+      <UniqueIdentifier>{276b0ccd-b9ba-4338-b34d-dad5fd99c929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\道具\消耗类道具\药品\蓝药">
+      <UniqueIdentifier>{d8a893e0-ae48-401d-839b-2ce14784cf29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\场景">
+      <UniqueIdentifier>{785c20f4-02aa-4a21-b900-49555f584d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI">
+      <UniqueIdentifier>{2888654e-32cb-4d84-a219-36c6e7addc10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI\对话框">
+      <UniqueIdentifier>{b1294549-23bc-4ff1-b82e-d2cf9c87c4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏框架">
+      <UniqueIdentifier>{5ef35613-4d80-47f8-98a3-ec140d8f0caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏框架\常用工具">
+      <UniqueIdentifier>{802b3e50-1748-48d1-ad35-b7f595c89bcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏框架\场景">
+      <UniqueIdentifier>{98f1f9db-8dfa-4bab-a091-a604604b54f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏框架\游戏对象">
+      <UniqueIdentifier>{db1e117a-d41f-4b0e-a415-dcb5ceabb92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏框架\导演">
+      <UniqueIdentifier>{cd9ff71d-fcf3-4247-acf8-07574dff8ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏对象">
+      <UniqueIdentifier>{46a3d530-e575-4f17-ac8f-dcbbe098ce5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏对象\障碍物">
+      <UniqueIdentifier>{c1e12f0b-c7ed-4408-b7a4-80507e26ab7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏对象\可穿透物">
+      <UniqueIdentifier>{39466b34-4144-4fb2-8ab8-d90b851b540d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏对象\障碍物\NPC">
+      <UniqueIdentifier>{1e5fc27e-7b1b-45e3-8b92-a4697376f21b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏对象\障碍物\战斗角色">
+      <UniqueIdentifier>{9ddedc0c-fbe1-4daf-b838-afe3cd883111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏对象\障碍物\战斗角色\怪物">
+      <UniqueIdentifier>{39a9e048-7636-4bb5-92d2-69ca79f937be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏对象\障碍物\战斗角色\玩家">
+      <UniqueIdentifier>{93c63f5e-b4fe-4d22-bb55-39f9cac3cecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI\角色信息">
+      <UniqueIdentifier>{a9ba3f53-1883-46f2-86fa-33fde0a2192f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\背包\快捷背包">
+      <UniqueIdentifier>{63a08cfc-d39c-4f44-a58d-a61c900ce154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏对象\可穿透物\道具物体">
+      <UniqueIdentifier>{82262d9e-28cf-4ec8-89ad-8f4781cb7673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI\商店">
+      <UniqueIdentifier>{884678b5-93c5-4820-a479-2d346230f67e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏对象\可穿透物\传送门">
+      <UniqueIdentifier>{c16feed6-cec3-47f0-b123-0f3d03741f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tinyxml">
+      <UniqueIdentifier>{59f25638-512c-4054-b4ff-e382e771e662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI\选择框">
+      <UniqueIdentifier>{e0f34b5e-f62f-4927-8c60-b700f019f62d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\场景\开始场景">
+      <UniqueIdentifier>{548b71bc-abf1-4418-acce-8b0441145f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\场景\游戏场景">
+      <UniqueIdentifier>{b54da86c-9192-4c97-8244-b7a112e629a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏对象\可穿透物\子弹">
+      <UniqueIdentifier>{929d2e05-751b-48b8-8d1c-037f5760b831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏对象\可穿透物\子弹\激光弹">
+      <UniqueIdentifier>{9e6528fe-1bf9-4863-bc7d-f2767d979ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏对象\障碍物\石头">
+      <UniqueIdentifier>{9ef6f1a5-db89-4dd3-b46e-2229c0e806ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI\选择框\公共选项">
+      <UniqueIdentifier>{e5347469-9e26-4c77-bfbc-62512e9b782e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI\选择框\公共菜单">
+      <UniqueIdentifier>{71f3796b-7952-4aa7-94e8-73bb3e0b8d8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Item.h">
+      <Filter>源文件\道具</Filter>
+    </ClInclude>
+    <ClInclude Include="Consumables.h">
+      <Filter>源文件\道具\消耗类道具</Filter>
+    </ClInclude>
+    <ClInclude Include="Bag.h">
+      <Filter>源文件\背包</Filter>
+    </ClInclude>
+    <ClInclude Include="HpMedinice.h">
+      <Filter>源文件\道具\消耗类道具\药品\红药</Filter>
+    </ClInclude>
+    <ClInclude Include="MpMedinice.h">
+      <Filter>源文件\道具\消耗类道具\药品\蓝药</Filter>
+    </ClInclude>
+    <ClInclude Include="Medinice.h">
+      <Filter>源文件\道具\消耗类道具\药品</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>源文件\游戏对象\障碍物\战斗角色\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>源文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog.h">
+      <Filter>源文件\UI\对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>源文件\游戏框架\常用工具</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>源文件\游戏框架\常用工具</Filter>
+    </ClInclude>
+    <ClInclude Include="Marco.h">
+      <Filter>源文件\游戏框架\常用工具</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>源文件\游戏框架\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>源文件\游戏框架\游戏对象</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>源文件\游戏框架</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>源文件\游戏对象\障碍物\战斗角色\玩家</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>源文件\游戏框架\常用工具</Filter>
+    </ClInclude>
+    <ClInclude Include="Walkable.h">
+      <Filter>源文件\游戏对象\可穿透物</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>源文件\游戏对象\障碍物</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>源文件\游戏对象\障碍物\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>源文件\游戏对象\可穿透物\子弹</Filter>
+    </ClInclude>
+    <ClInclude Include="MapData.h">
+      <Filter>源文件\游戏框架\常用工具</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>源文件\游戏对象\障碍物\战斗角色\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="CombatRole.h">
+      <Filter>源文件\游戏对象\障碍物\战斗角色</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserBullet.h">
+      <Filter>源文件\游戏对象\可穿透物\子弹\激光弹</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInfoUI.h">
+      <Filter>源文件\UI\角色信息</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortcutBag.h">
+      <Filter>源文件\背包\快捷背包</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemObject.h">
+      <Filter>源文件\游戏对象\可穿透物\道具物体</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemFactory.h">
+      <Filter>源文件\道具</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>源文件\道具\装备</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>源文件\UI\商店</Filter>
+    </ClInclude>
+    <ClInclude Include="GateWay.h">
+      <Filter>源文件\游戏对象\可穿透物\传送门</Filter>
+    </ClInclude>
+    <ClInclude Include="Director.h">
+      <Filter>源文件\游戏框架\导演</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinystr.h">
+      <Filter>源文件\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinyxml.h">
+      <Filter>源文件\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>源文件\UI\选择框</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>源文件\UI\选择框</Filter>
+    </ClInclude>
+    <ClInclude Include="DrakPrairie.h">
+      <Filter>源文件\场景\游戏场景</Filter>
+    </ClInclude>
+    <ClInclude Include="HillyLand.h">
+      <Filter>源文件\场景\游戏场景</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMenu.h">
+      <Filter>源文件\场景\开始场景</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectFactory.h">
+      <Filter>源文件\游戏对象</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>源文件\游戏对象\障碍物\石头</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveOption.h">
+      <Filter>源文件\UI\选择框\公共选项</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadOption.h">
+      <Filter>源文件\UI\选择框\公共选项</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>源文件\UI\选择框\公共菜单</Filter>
+    </ClInclude>
+    <ClInclude Include="BackTitleOption.h">
+      <Filter>源文件\UI\选择框\公共选项</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitOption.h">
+      <Filter>源文件\UI\选择框\公共选项</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Item.cpp">
+      <Filter>源文件\道具</Filter>
+    </ClCompile>
+    <ClCompile Include="Consumables.cpp">
+      <Filter>源文件\道具\消耗类道具</Filter>
+    </ClCompile>
+    <ClCompile Include="Bag.cpp">
+      <Filter>源文件\背包</Filter>
+    </ClCompile>
+    <ClCompile Include="HpMedinice.cpp">
+      <Filter>源文件\道具\消耗类道具\药品\红药</Filter>
+    </ClCompile>
+    <ClCompile Include="MpMedinice.cpp">
+      <Filter>源文件\道具\消耗类道具\药品\蓝药</Filter>
+    </ClCompile>
+    <ClCompile Include="Medinice.cpp">
+      <Filter>源文件\道具\消耗类道具\药品</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>源文件\游戏对象\障碍物\战斗角色\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog.cpp">
+      <Filter>源文件\UI\对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="Marco.cpp">
+      <Filter>源文件\游戏框架\常用工具</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>源文件\游戏框架\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>源文件\游戏框架\游戏对象</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件\游戏对象\障碍物\战斗角色\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="Walkable.cpp">
+      <Filter>源文件\游戏对象\可穿透物</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>源文件\游戏对象\障碍物</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>源文件\游戏对象\障碍物\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>源文件\游戏对象\可穿透物\子弹</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>源文件\游戏对象\障碍物\战斗角色\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="CombatRole.cpp">
+      <Filter>源文件\游戏对象\障碍物\战斗角色</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserBullet.cpp">
+      <Filter>源文件\游戏对象\可穿透物\子弹\激光弹</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInfoUI.cpp">
+      <Filter>源文件\UI\角色信息</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortcutBag.cpp">
+      <Filter>源文件\背包\快捷背包</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemObject.cpp">
+      <Filter>源文件\游戏对象\可穿透物\道具物体</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemFactory.cpp">
+      <Filter>源文件\道具</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>源文件\道具\装备</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>源文件\UI\商店</Filter>
+    </ClCompile>
+    <ClCompile Include="GateWay.cpp">
+      <Filter>源文件\游戏对象\可穿透物\传送门</Filter>
+    </ClCompile>
+    <ClCompile Include="Director.cpp">
+      <Filter>源文件\游戏框架\导演</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinystr.cpp">
+      <Filter>源文件\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxml.cpp">
+      <Filter>源文件\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp">
+      <Filter>源文件\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp">
+      <Filter>源文件\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>源文件\UI\选择框</Filter>
+    </ClCompile>
+    <ClCompile Include="DrakPrairie.cpp">
+      <Filter>源文件\场景\游戏场景</Filter>
+    </ClCompile>
+    <ClCompile Include="HillyLand.cpp">
+      <Filter>源文件\场景\游戏场景</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMenu.cpp">
+      <Filter>源文件\场景\开始场景</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectFactory.cpp">
+      <Filter>源文件\游戏对象</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>源文件\游戏对象\障碍物\石头</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveOption.cpp">
+      <Filter>源文件\UI\选择框\公共选项</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadOption.cpp">
+      <Filter>源文件\UI\选择框\公共选项</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>源文件\UI\选择框\公共菜单</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTitleOption.cpp">
+      <Filter>源文件\UI\选择框\公共选项</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitOption.cpp">
+      <Filter>源文件\UI\选择框\公共选项</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test.txt">
+      <Filter>源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
